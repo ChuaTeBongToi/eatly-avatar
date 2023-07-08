@@ -94,10 +94,15 @@ body {
     align-items: center;
 }
 
+.ex-photo {
+    z-index: 0;
+}
 
 #photo {
     width: 315px;
     height: 400px;
+    border-radius: 30px;
+    object-fit: cover;
     flex-shrink: 0;
 }
 
